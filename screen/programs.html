@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energize Fitness - Programs</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favico/favicon.ico">
+  <link rel="stylesheet" href="/css/output.css">
+
+  <!-- tailwindcss CDN -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body class="bg-gradient-to-br from-black to-violet-950 text-white font-sans">
+  <div class="fixed inset-0 z-0">
+    <img src="/assets/short.jpg" alt="background" class="w-full h-full object-cover opacity-30">
+  </div>
+
+  <div class="relative w-full min-h-screen p-8">
+    <header class="flex flex-col w-full md:flex-row justify-between items-center px-8 sticky top-0 z-50 gap-4">
+      <div class="h-16 transition-transform duration-300 hover:scale-105 flex flex-row items-center gap-2">
+        <img src="/assets/logo.svg" alt="logo" class="h-full" />
+        <a href="/index.html" class="text-white text-2xl font-bold">Energize Fitness</a>
+      </div>
+      <nav id="nav"
+        class="w-full md:w-1/2 flex gap-6 justify-evenly items-center px-6 bg-black/20 backdrop-blur-lg rounded-full p-2 shadow-xl border border-white/30 transition-all duration-300 hover:bg-black/30">
+        <a href="/index.html"
+          class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Home</a>
+        <a href="about.html"
+          class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">About</a>
+        <a href="programs.html"
+          class="text-violet-500 font-bold transition-all duration-300 hover:scale-110">Programs</a>
+        <a href="classes.html"
+          class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Classes</a>
+        <a href="trainers.html"
+          class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Trainers</a>
+        <a href="membership.html"
+          class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Membership</a>
+        <a href="register.html"
+          class="text-white font-bold bg-violet-500 px-6 py-2 rounded-full transition-all duration-300 hover:bg-violet-700 hover:scale-105">Register</a>
+      </nav>
+    </header>
+
+    <main class="container mx-auto py-10 relative z-10 flex flex-col items-center">
+      <section class="text-center mb-12">
+        <h1
+          class="text-4xl md:text-5xl pb-4 font-bold text-center bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-6">
+          Our Fitness Programs</h1>
+        <p class="text-lg text-white/80 max-w-3xl mx-auto">
+          Transform your life with our comprehensive fitness programs designed for all levels.
+        </p>
+      </section>
+
+      <!-- Grid container with max-width -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl mx-auto">
+        <!-- Personal Training -->
+        <div
+          class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-4">
+            Personal Training</h3>
+          <p class="text-white/90 mb-6">One-on-one sessions tailored to your goals:</p>
+          <ul class="space-y-3 text-white/80">
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Custom workout plans
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Progress tracking
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Nutrition guidance
+            </li>
+          </ul>
+          <p class="mt-4 text-violet-400 font-semibold">From RM199/session</p>
+        </div>
+
+        <!-- Group Classes -->
+        <div
+          class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-4">
+            Group Classes</h3>
+          <div class="space-y-4">
+            <div class="p-4 bg-black/20 rounded-xl">
+              <h4 class="text-violet-400 font-bold mb-2">HIIT</h4>
+              <p class="text-white/80">High-intensity workouts for maximum results</p>
+            </div>
+            <div class="p-4 bg-black/20 rounded-xl">
+              <h4 class="text-violet-400 font-bold mb-2">Yoga Flow</h4>
+              <p class="text-white/80">Mind-body connection and flexibility</p>
+            </div>
+            <div class="p-4 bg-black/20 rounded-xl">
+              <h4 class="text-violet-400 font-bold mb-2">Spin Class</h4>
+              <p class="text-white/80">Intense cardio cycling sessions</p>
+            </div>
+          </div>
+          <p class="mt-4 text-violet-400 font-semibold">From RM49/class</p>
+        </div>
+
+        <!-- Strength Training -->
+        <div
+          class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-4">
+            Strength Training</h3>
+          <p class="text-white/90 mb-6">Build muscle and increase strength:</p>
+          <ul class="space-y-3 text-white/80">
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Powerlifting
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Olympic lifting
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Functional training
+            </li>
+          </ul>
+          <p class="mt-4 text-violet-400 font-semibold">From RM149/month</p>
+        </div>
+
+        <!-- Nutrition Planning -->
+        <div
+          class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-4">
+            Nutrition Planning</h3>
+          <p class="text-white/90 mb-6">Comprehensive dietary guidance:</p>
+          <ul class="space-y-3 text-white/80">
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Meal planning
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Macro tracking
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Supplement advice
+            </li>
+          </ul>
+          <p class="mt-4 text-violet-400 font-semibold">From RM299/month</p>
+        </div>
+
+        <!-- Recovery & Wellness -->
+        <div
+          class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-4">
+            Recovery & Wellness</h3>
+          <p class="text-white/90 mb-6">Complete recovery services:</p>
+          <ul class="space-y-3 text-white/80">
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Massage therapy
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Physiotherapy
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-violet-400">→</span>
+              Injury prevention
+            </li>
+          </ul>
+          <p class="mt-4 text-violet-400 font-semibold">From RM129/session</p>
+        </div>
+
+        <!-- Special Programs -->
+        <div
+          class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-4">
+            Special Programs</h3>
+          <div class="space-y-4">
+            <div class="p-4 bg-black/20 rounded-xl">
+              <h4 class="text-violet-400 font-bold mb-2">Senior Fitness</h4>
+              <p class="text-white/80">Tailored for active aging</p>
+            </div>
+            <div class="p-4 bg-black/20 rounded-xl">
+              <h4 class="text-violet-400 font-bold mb-2">Pre/Post Natal</h4>
+              <p class="text-white/80">Safe pregnancy workouts</p>
+            </div>
+            <div class="p-4 bg-black/20 rounded-xl">
+              <h4 class="text-violet-400 font-bold mb-2">Youth Training</h4>
+              <p class="text-white/80">For ages 14-18</p>
+            </div>
+          </div>
+          <p class="mt-4 text-violet-400 font-semibold">Custom pricing</p>
+        </div>
+      </div>
+
+      <!-- Achievements Section -->
+      <section class="mt-24 w-full max-w-7xl mx-auto">
+        <h2
+          class="text-4xl font-bold text-center bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-12">
+          Our Achievements</h2>
+
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+          <div class="text-center p-6 bg-black/20 backdrop-blur-lg rounded-2xl">
+            <p class="text-4xl font-bold text-violet-400 mb-2">5000+</p>
+            <p class="text-white/80">Success Stories</p>
+          </div>
+          <div class="text-center p-6 bg-black/20 backdrop-blur-lg rounded-2xl">
+            <p class="text-4xl font-bold text-violet-400 mb-2">15+</p>
+            <p class="text-white/80">Years Experience</p>
+          </div>
+          <div class="text-center p-6 bg-black/20 backdrop-blur-lg rounded-2xl">
+            <p class="text-4xl font-bold text-violet-400 mb-2">50+</p>
+            <p class="text-white/80">Expert Trainers</p>
+          </div>
+          <div class="text-center p-6 bg-black/20 backdrop-blur-lg rounded-2xl">
+            <p class="text-4xl font-bold text-violet-400 mb-2">25+</p>
+            <p class="text-white/80">Industry Awards</p>
+          </div>
+        </div>
+
+        <!-- Success Stories -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="https://i.pravatar.cc/100?img=23" alt="Client" class="w-16 h-16 rounded-full">
+              <div>
+                <h3 class="font-bold text-xl text-violet-400">Sarah Lee</h3>
+                <p class="text-white/60">Weight Loss Journey</p>
+              </div>
+            </div>
+            <p class="text-white/80">"Lost 30kg in 6 months with their personalized program. The trainers were
+              incredibly supportive throughout my journey."</p>
+          </div>
+
+          <div
+            class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="https://i.pravatar.cc/100?img=32" alt="Client" class="w-16 h-16 rounded-full">
+              <div>
+                <h3 class="font-bold text-xl text-violet-400">Mike Chen</h3>
+                <p class="text-white/60">Strength Training</p>
+              </div>
+            </div>
+            <p class="text-white/80">"Increased my deadlift from 80kg to 180kg in just one year. The coaching and
+              facilities are world-class."</p>
+          </div>
+
+          <div
+            class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+            <div class="flex items-center gap-4 mb-4">
+              <img src="https://i.pravatar.cc/100?img=42" alt="Client" class="w-16 h-16 rounded-full">
+              <div>
+                <h3 class="font-bold text-xl text-violet-400">Lisa Wong</h3>
+                <p class="text-white/60">Recovery Program</p>
+              </div>
+            </div>
+            <p class="text-white/80">"Their rehabilitation program helped me recover from a serious injury. Now I'm back
+              to my peak performance."</p>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="mt-16 text-center">
+          <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-8">
+            Our Certifications</h3>
+          <div class="flex flex-wrap justify-center gap-6">
+            <div
+              class="group bg-black/20 backdrop-blur-lg px-6 py-3 rounded-md flex flex-row justify-center items-center gap-2">
+              <svg class="w-6 h-6 transition-transform group-hover:rotate-12" fill="white"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0L133.9 0c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0L487.4 0C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z" />
+              </svg>
+              <span class="text-violet-400">ISO 9001:2015</span>
+            </div>
+            <div
+              class="group bg-black/20 backdrop-blur-lg px-6 py-3 rounded-md flex flex-row justify-center items-center gap-2">
+              <svg class="w-6 h-6 transition-transform group-hover:rotate-12" fill="white"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0L133.9 0c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0L487.4 0C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z" />
+              </svg>
+              <span class="text-violet-400">ACE Certified</span>
+            </div>
+            <div
+              class="group bg-black/20 backdrop-blur-lg px-6 py-3 rounded-md flex flex-row justify-center items-center gap-2">
+              <svg class="w-6 h-6 transition-transform group-hover:rotate-12" fill="white"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0L133.9 0c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0L487.4 0C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z" />
+              </svg>
+              <span class="text-violet-400">NASM Partner</span>
+            </div>
+            <div
+              class="group bg-black/20 backdrop-blur-lg px-6 py-3 rounded-md flex flex-row justify-center items-center gap-2">
+              <svg class="w-6 h-6 transition-transform group-hover:rotate-12" fill="white"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M4.1 38.2C1.4 34.2 0 29.4 0 24.6C0 11 11 0 24.6 0L133.9 0c11.2 0 21.7 5.9 27.4 15.5l68.5 114.1c-48.2 6.1-91.3 28.6-123.4 61.9L4.1 38.2zm503.7 0L405.6 191.5c-32.1-33.3-75.2-55.8-123.4-61.9L350.7 15.5C356.5 5.9 366.9 0 378.1 0L487.4 0C501 0 512 11 512 24.6c0 4.8-1.4 9.6-4.1 13.6zM80 336a176 176 0 1 1 352 0A176 176 0 1 1 80 336zm184.4-94.9c-3.4-7-13.3-7-16.8 0l-22.4 45.4c-1.4 2.8-4 4.7-7 5.1L168 298.9c-7.7 1.1-10.7 10.5-5.2 16l36.3 35.4c2.2 2.2 3.2 5.2 2.7 8.3l-8.6 49.9c-1.3 7.6 6.7 13.5 13.6 9.9l44.8-23.6c2.7-1.4 6-1.4 8.7 0l44.8 23.6c6.9 3.6 14.9-2.2 13.6-9.9l-8.6-49.9c-.5-3 .5-6.1 2.7-8.3l36.3-35.4c5.6-5.4 2.5-14.8-5.2-16l-50.1-7.3c-3-.4-5.7-2.4-7-5.1l-22.4-45.4z" />
+              </svg>
+              <span class="text-violet-400">IFBB Recognized</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
