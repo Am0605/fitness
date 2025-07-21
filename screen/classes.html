@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energize Fitness - Classes</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favico/favicon.ico">
+  <link rel="stylesheet" href="/css/output.css">
+  <script src="js/video.js"></script>
+
+  <!-- tailwindcss CDN -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> --> 
+</head>
+<body class="bg-gradient-to-br from-black to-violet-950 text-white font-sans">
+  <div class="fixed inset-0 z-0">
+    <img src="/assets/short.jpg" alt="background" class="w-full h-full object-cover opacity-30">
+  </div>
+
+  <div class="relative w-full min-h-screen p-8">
+      <header class="flex flex-col w-full md:flex-row justify-between items-center px-8 sticky top-0 z-50 gap-4">
+        <div class="h-16 transition-transform duration-300 hover:scale-105 flex flex-row items-center gap-2">
+            <img src="/assets/logo.svg" alt="logo" class="h-full" />
+            <a href="/index.html" class="text-white text-2xl font-bold">Energize Fitness</a>
+        </div>
+        <nav id="nav" class="w-full md:w-1/2 flex gap-6 justify-evenly items-center px-6 bg-black/20 backdrop-blur-lg rounded-full p-2 shadow-xl border border-white/30 transition-all duration-300 hover:bg-black/30"> 
+          <a href="/index.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Home</a>
+          <a href="about.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">About</a>
+          <a href="programs.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Programs</a>
+          <a href="classes.html" class="text-violet-500 font-bold transition-all duration-300 hover:scale-110">Classes</a>
+          <a href="trainers.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Trainers</a>
+          <a href="membership.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Membership</a>
+          <a href="register.html" class="text-white font-bold bg-violet-500 px-6 py-2 rounded-full transition-all duration-300 hover:bg-violet-700 hover:scale-105">Register</a>
+        </nav>
+      </header>
+    
+      <main class="container mx-auto px-4 mb-24 relative z-10">
+        <!-- Upcoming Classes & Boot Camps -->
+        <section id="upcoming-classes" class="py-16">
+            <h2 class="text-4xl md:text-5xl pb-4 font-bold text-center bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-6">Upcoming Classes & Boot Camps</h2>
+            <p class="mt-4 text-xl text-white/80 max-w-3xl mx-auto leading-relaxed text-center mb-12">
+                Secure your spot in our high-energy sessions – whether you're a beginner or an advanced athlete, we have the right class for you.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Boot Camp Challenge Card -->
+                <div class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+                    <img src="/assets/event1.jpg" alt="Boot Camp Challenge" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-2">Boot Camp Challenge</h3>
+                    <p class="text-white/80 mb-4 leading-relaxed">An intensive boot camp designed to push your limits and boost overall strength.</p>
+                    <ul class="text-white/80 mb-4 space-y-2">
+                        <li class="flex items-center gap-2">
+                            <span class="text-violet-400">→</span>
+                            <strong>Schedule:</strong> Sat & Sun, 8:00 AM - 10:00 AM
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-violet-400">→</span>
+                            <strong>Level:</strong> Intermediate to Advanced
+                        </li>
+                    </ul>
+                    <a href="register.html" class="inline-block bg-violet-500 text-white px-6 py-2 rounded-full hover:bg-violet-700 transition-all duration-300 hover:scale-105">Register Now</a>
+                </div>
+
+                <!-- Beginner Yoga Card -->
+                <div class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+                    <img src="/assets/event2.jpg" alt="Beginner Yoga" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-2">Beginner Yoga</h3>
+                    <p class="text-white/80 mb-4 leading-relaxed">A calming yoga session perfect for newcomers to build flexibility and reduce stress.</p>
+                    <ul class="text-white/80 mb-4 space-y-2">
+                        <li class="flex items-center gap-2">
+                            <span class="text-violet-400">→</span>
+                            <strong>Schedule:</strong> Mon, Wed, Fri, 7:00 AM - 8:00 AM
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-violet-400">→</span>
+                            <strong>Level:</strong> Beginner
+                        </li>
+                    </ul>
+                    <a href="register.html" class="inline-block bg-violet-500 text-white px-6 py-2 rounded-full hover:bg-violet-700 transition-all duration-300 hover:scale-105">Register Now</a>
+                </div>
+
+                <!-- HIIT Express Card -->
+                <div class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+                    <img src="/assets/event3.jpg" alt="HIIT Express" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <h3 class="text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-2">HIIT Express</h3>
+                    <p class="text-white/80 mb-4 leading-relaxed">High-intensity interval training for maximum calorie burn in a short session.</p>
+                    <ul class="text-white/80 mb-4 space-y-2">
+                        <li class="flex items-center gap-2">
+                            <span class="text-violet-400">→</span>
+                            <strong>Schedule:</strong> Tue & Thu, 6:00 PM - 6:45 PM
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="text-violet-400">→</span>
+                            <strong>Level:</strong> All Levels
+                        </li>
+                    </ul>
+                    <a href="register.html" class="inline-block bg-violet-500 text-white px-6 py-2 rounded-full hover:bg-violet-700 transition-all duration-300 hover:scale-105">Register Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Class Schedule Table -->
+        <section id="class-schedule" class="py-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-12">Class Schedule</h2>
+            <div class="overflow-x-auto bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+                <table class="min-w-full">
+                    <thead class="border-b border-violet-500/30">
+                        <tr>
+                            <th class="px-4 py-3 text-left text-violet-400">Class</th>
+                            <th class="px-4 py-3 text-left text-violet-400">Day(s)</th>
+                            <th class="px-4 py-3 text-left text-violet-400">Time</th>
+                            <th class="px-4 py-3 text-left text-violet-400">Level</th>
+                            <th class="px-4 py-3 text-left text-violet-400">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-white/80">
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Boot Camp Challenge</td>
+                            <td class="px-4 py-3">Sat, Sun</td>
+                            <td class="px-4 py-3">8:00 AM - 10:00 AM</td>
+                            <td class="px-4 py-3">Intermediate - Advanced</td>
+                            <td class="px-4 py-3">
+                                <a href="register.html" class="inline-block bg-violet-500 text-white px-4 py-1 rounded-full text-sm hover:bg-violet-700 transition-all duration-300 hover:scale-105">Register Now</a>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Beginner Yoga</td>
+                            <td class="px-4 py-3">Mon, Wed, Fri</td>
+                            <td class="px-4 py-3">7:00 AM - 8:00 AM</td>
+                            <td class="px-4 py-3">Beginner</td>
+                            <td class="px-4 py-3">
+                                <a href="register.html" class="inline-block bg-violet-500 text-white px-4 py-1 rounded-full text-sm hover:bg-violet-700 transition-all duration-300 hover:scale-105">Register Now</a>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">HIIT Express</td>
+                            <td class="px-4 py-3">Tue, Thu</td>
+                            <td class="px-4 py-3">6:00 PM - 6:45 PM</td>
+                            <td class="px-4 py-3">All Levels</td>
+                            <td class="px-4 py-3">
+                                <a href="register.html" class="inline-block bg-violet-500 text-white px-4 py-1 rounded-full text-sm hover:bg-violet-700 transition-all duration-300 hover:scale-105">Register Now</a>
+                            </td>
+                        </tr>
+
+                        <!-- Additional classes marked as Full -->
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Spin Cycle</td>
+                            <td class="px-4 py-3">Mon, Wed, Fri</td>
+                            <td class="px-4 py-3">6:30 PM - 7:30 PM</td>
+                            <td class="px-4 py-3">All Levels</td>
+                            <td class="px-4 py-3">
+                                <span class="inline-block bg-gray-500 text-white px-4 py-1 rounded-full text-sm opacity-75">Full</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Powerlifting</td>
+                            <td class="px-4 py-3">Tue, Thu, Sat</td>
+                            <td class="px-4 py-3">7:00 PM - 8:30 PM</td>
+                            <td class="px-4 py-3">Advanced</td>
+                            <td class="px-4 py-3">
+                                <span class="inline-block bg-gray-500 text-white px-4 py-1 rounded-full text-sm opacity-75">Full</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Zumba Dance</td>
+                            <td class="px-4 py-3">Mon, Wed</td>
+                            <td class="px-4 py-3">5:30 PM - 6:30 PM</td>
+                            <td class="px-4 py-3">All Levels</td>
+                            <td class="px-4 py-3">
+                                <span class="inline-block bg-gray-500 text-white px-4 py-1 rounded-full text-sm opacity-75">Full</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Boxing Fitness</td>
+                            <td class="px-4 py-3">Tue, Thu</td>
+                            <td class="px-4 py-3">8:00 PM - 9:00 PM</td>
+                            <td class="px-4 py-3">Intermediate</td>
+                            <td class="px-4 py-3">
+                                <span class="inline-block bg-gray-500 text-white px-4 py-1 rounded-full text-sm opacity-75">Full</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-violet-500/10">
+                            <td class="px-4 py-3">Pilates Core</td>
+                            <td class="px-4 py-3">Mon, Fri</td>
+                            <td class="px-4 py-3">9:00 AM - 10:00 AM</td>
+                            <td class="px-4 py-3">All Levels</td>
+                            <td class="px-4 py-3">
+                                <span class="inline-block bg-gray-500 text-white px-4 py-1 rounded-full text-sm opacity-75">Full</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    
+        <!-- Past Events & Highlights -->
+        <section id="past-events" class="py-16 w-full mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-12">
+                Past Events & Highlights
+            </h2>
+            <p class="mt-4 text-xl text-white/80 max-w-3xl mx-auto leading-relaxed text-center mb-12">
+                Take a look at our event gallery and video highlights to get a glimpse of the dynamic experiences you can be a part of.
+            </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <!-- Image Gallery Card -->
+                <div class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+                    <h3 class="text-center text-2xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-6">
+                        Event Gallery
+                    </h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="/assets/event1.jpg" alt="Event 1" class="w-full h-48 object-cover rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer">
+                        <img src="/assets/event2.jpg" alt="Event 2" class="w-full h-48 object-cover rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer">
+                        <img src="/assets/event3.jpg" alt="Event 3" class="w-full h-48 object-cover rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer">
+                        <img src="/assets/event4.jpg" alt="Event 4" class="w-full h-48 object-cover rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    </div>
+                </div>
+                <!-- Video Highlights Card -->
+                <div class="bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:border-violet-500">
+                    <h3 class="text-2xl text-center font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-6">
+                        Video Highlights
+                    </h3>
+                    <div class="relative rounded-xl overflow-hidden">
+                        <video id="highlightVideo" class="w-full cursor-pointer" autoplay muted playsinline loop>
+                        <source src="/assets/video/highlight.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+  </div>
+</body>
+</html>

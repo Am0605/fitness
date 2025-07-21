@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energize Fitness - Home</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favico/favicon.ico">
+    <link rel="stylesheet" href="css/output.css">
+
+    <!-- tailwindcss CDN -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body class="bg-gradient-to-br from-black to-violet-950 text-white font-sans">
+    <div class="fixed inset-0 z-0">
+        <img src="/assets/short.jpg" alt="background" class="w-full h-full object-cover opacity-30">
+    </div>
+        
+    <div class="relative w-screen h-screen p-8">
+        <header class="flex flex-col w-full md:flex-row justify-between items-center px-8 sticky top-0 z-50 gap-4 md:gap-0">
+            <div class="h-16 transition-transform duration-300 hover:scale-105 flex flex-row items-center gap-2">
+                <img src="/assets/logo.svg" alt="logo" class="h-full" />
+                <a href="/index.html" class="text-white text-2xl font-bold">Energize Fitness</a>
+            </div>
+            <nav id="nav" class="w-full md:w-1/2 flex gap-6 justify-evenly items-center px-6 md:px-auto bg-black/20 backdrop-blur-lg rounded-full p-2 shadow-xl border border-white/30 transition-all duration-300 hover:bg-black/30"> 
+                <a href="index.html" class="text-violet-500 font-bold transition-all duration-300 hover:scale-110">Home</a>
+                <a href="/screen/about.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">About</a>
+                <a href="/screen/programs.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Programs</a>
+                <a href="/screen/classes.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Classes</a>
+                <a href="/screen/trainers.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Trainers</a>
+                <a href="/screen/membership.html" class="text-white font-bold transition-all duration-300 hover:text-violet-400 hover:scale-110">Membership</a>
+                <a href="/screen/register.html" class="text-white font-bold bg-violet-500 px-6 py-2 rounded-full transition-all duration-300 hover:bg-violet-700 hover:scale-105">Register</a>
+            </nav>
+        </header>
+        
+        <main class="container mx-auto h-[calc(100vh-8rem)] py-10 relative z-10 flex flex-col md:flex-row justify-center items-center gap-12">
+            <div id="leftcol" class="flex flex-col gap-8 h-full w-1/2 p-6 justify-center items-center">
+                <!-- Fitness System Overview -->
+                <div class="text-center md:text-left bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:transform hover:border-violet-500">
+                    <h2 class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-6 animate-fade-in">Energize Fitness:<br> Your Gateway to a Healthier Life</h2>
+                    <p class="mt-4 text-lg md:text-xl text-white/90 leading-relaxed text-justify">
+                        Welcome to <b>Energize Fitness</b>, where your health, well-being, and fitness aspirations come to life. Join a supportive community dedicated to helping you reach your fitness goals through diverse programs, expert guidance, and inspiring results.
+                    </p>
+                    <p class="mt-4 text-lg md:text-xl text-white/90 leading-relaxed text-justify">
+                        Whether you're a beginner or a pro, our cutting-edge facilities and expert guidance will help you push your limits and unlock your full potential.
+                    </p>
+                </div>
+                
+                <!-- Premium Facilities -->
+                <div class="text-center md:text-left bg-gradient-to-r from-black/40 to-violet-900/40 backdrop-blur-lg p-8 rounded-3xl border border-violet-500/30 shadow-2xl transition-all duration-500 hover:transform hover:border-violet-500">
+                    <h2 class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-violet-300 bg-clip-text text-transparent mb-6 animate-fade-in">Premium Facilities</h2>
+                    <p class="mt-4 text-lg md:text-xl text-white/90 leading-relaxed text-justify">
+                        Access state-of-the-art fitness equipment, spacious workout areas, and dedicated spaces for strength training, cardio, and wellness programs.
+                    </p>
+                    <!-- <a href="/screen/register.html" class="mt-6 inline-block bg-gradient-to-r from-violet-700 to-purple-500 px-8 py-3 rounded-full text-white font-bold text-lg shadow-lg transform transition-all duration-300 hover:bg-purple-900 hover:scale-105 hover:shadow-xl">
+                        Get Started →
+                    </a> -->
+                </div>
+            </div>
+            <section id="rightcol" class="md:w-1/2 h-full flex items-center justify-center p-4">
+                <img src="./assets/short.jpg" alt="Fitness Center" class="object-cover h-full w-full rounded-3xl shadow-2xl transition-all duration-500 border-2 border-violet-500/30 hover:border-violet-500">
+            </section>
+        </main>
+    </div>
+</body>
+</html>
